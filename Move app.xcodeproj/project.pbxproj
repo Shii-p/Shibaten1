@@ -11,6 +11,7 @@
 		3292DC4E29A7201200676DE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DC4D29A7201200676DE4 /* ContentView.swift */; };
 		3292DC5029A7201600676DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3292DC4F29A7201600676DE4 /* Assets.xcassets */; };
 		3292DC5329A7201600676DE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3292DC5229A7201600676DE4 /* Preview Assets.xcassets */; };
+		3292DC5C29A72C8C00676DE4 /* MapView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3292DC5B29A72C8C00676DE4 /* MapView .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3292DC4D29A7201200676DE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3292DC4F29A7201600676DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3292DC5229A7201600676DE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3292DC5B29A72C8C00676DE4 /* MapView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapView .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				3292DC4B29A7201200676DE4 /* Move_appApp.swift */,
 				3292DC4D29A7201200676DE4 /* ContentView.swift */,
+				3292DC5B29A72C8C00676DE4 /* MapView .swift */,
 				3292DC4F29A7201600676DE4 /* Assets.xcassets */,
 				3292DC5129A7201600676DE4 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3292DC5C29A72C8C00676DE4 /* MapView .swift in Sources */,
 				3292DC4E29A7201200676DE4 /* ContentView.swift in Sources */,
 				3292DC4C29A7201200676DE4 /* Move_appApp.swift in Sources */,
 			);

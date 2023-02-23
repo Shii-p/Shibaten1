@@ -7,15 +7,23 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View{
+    
+    @State var inputText = ""
+    @State var dispSearchKey: String = ""
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack{
+            
+            TextField("キーワード", text: $inputText, prompt: Text("キーワードを入力してください"))
+            
+                .onSubmit{
+                    dispSearchKey = inputText
+                }
+                .padding()
+            MapView(searchKey: dispSearchKey)
         }
-        .padding()
     }
 }
 
